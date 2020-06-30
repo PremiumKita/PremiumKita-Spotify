@@ -67,6 +67,9 @@ for ($i = 0; $i < $banyak ; $i++) {
 		$fh = fopen("result.txt", "a");
 		fwrite($fh, "premiumkita".number(6)."@gmail.com | premiumkita123 [Premium 1 Bulan] \n\r");
 		fclose($fh);
+	} else {
+		echo "\e[91m[GAGAL] Layanan Premium Tidak Tersedia\n";
+		exit();
 	}
 }
 echo "====================================================\n";

@@ -24,10 +24,10 @@ function number($length) {
 }
 
 echo "\e[96m---------------------------\n";
-echo "|                             |\n";
-echo "|        Spotify Premium      |\n";
-echo "|         PremiumKita         |\n";
-echo "|                             |\n";
+echo "|                         |\n";
+echo "|      Spotify Premium    |\n";
+echo "|        PremiumKita      |\n";
+echo "|                         |\n";
 echo "---------------------------\n";
 
 
